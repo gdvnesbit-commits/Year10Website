@@ -42,10 +42,10 @@ img {
     background-color: rgb(71, 71, 71);
 }
 
-/* Three column grid with a nice big gap */
+/* Two column grid with a nice big gap */
 .topic-content{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 6em;
     /* bring the whole section in off the sides of the page */
     width: 70%;
