@@ -36,17 +36,17 @@ img {
 
 /* nice big font on a banner style background */
 .topic-title{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(164, 235, 159);
 }
 
 /* Two column grid with a nice big gap */
 .topic-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 6em;
+    gap: 10em;
     /* bring the whole section in off the sides of the page */
     width: 70%;
     /* top margin of 3em and center right/left */
@@ -55,12 +55,12 @@ img {
 
 /* Styling for the individual topic cards rounded edges background color and a drop shadow */
 .topic-card{
-    background-color: rgb(71, 71, 71);
-    color: white;
+    background-color: rgb(160, 235, 216);
+    color: rgb(0, 0, 0);
     padding: 1em;
     border-radius: 0.5em;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-    width: 20%;
+    box-shadow: 10px 10px 10px rgba(153, 226, 131, 0.2);
+    width: 50%;
 }
 
 /* Styling for the topic card titles */
@@ -74,7 +74,7 @@ img {
 
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(164, 235, 159);
     color: white;
     text-align: right;
     padding: 3em 3em;
